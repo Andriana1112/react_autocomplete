@@ -113,7 +113,7 @@ const Autocomplete: React.FC<AutocompleteProps> = ({
 
   return (
     <>
-      <div className="dropdown is-active">
+      <div className={`dropdown ${isActive ? 'is-active' : ''}`}>
         <div className="dropdown-trigger">
           <input
             type="text"
